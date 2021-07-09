@@ -1,0 +1,2 @@
+rootProject.name = "PracticeLGTY"
+include ':app'
