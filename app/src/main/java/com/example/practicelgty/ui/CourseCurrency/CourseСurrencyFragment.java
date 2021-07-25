@@ -1,4 +1,4 @@
-package com.example.practicelgty.ui.dashboard;
+package com.example.practicelgty.ui.CourseCurrency;
 
 import android.app.DatePickerDialog;
 import android.graphics.Color;
@@ -29,7 +29,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Random;
 
-public class DashboardFragment extends Fragment implements View.OnClickListener {
+public class CourseСurrencyFragment extends Fragment implements View.OnClickListener {
 
     EditText editTextBeginDate;
     EditText editTextEndDate;
@@ -39,7 +39,7 @@ public class DashboardFragment extends Fragment implements View.OnClickListener 
     UrlBuilder urlBuilder;
     DateFormat dateFormat;
 
-    String name = "DashboardFragment";
+    String name = "CourseСurrencyFragment";
 
     private DatePickerDialog.OnDateSetListener mDateSetListener;
 
@@ -153,9 +153,9 @@ public class DashboardFragment extends Fragment implements View.OnClickListener 
             @Override
             public void run() {
                 try {
-                    Reqest reqest = new Reqest();
+                    Request request = new Request();
                     UrlBuilder urlBuilder = new UrlBuilder();
-                    double[] course = reqest.getCourseAllDays(urlBuilder.getUrlDate(dates));
+                    double[] course = request.getCourseAllDays(urlBuilder.getUrlDate(dates));
                     graph(course);
                     averageСourse(course);
                     for(double a: course){

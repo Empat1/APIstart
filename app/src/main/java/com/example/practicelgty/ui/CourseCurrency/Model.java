@@ -1,4 +1,4 @@
-package com.example.practicelgty.ui.dashboard;
+package com.example.practicelgty.ui.CourseCurrency;
 
 public class Model {
     String baseCurrency;

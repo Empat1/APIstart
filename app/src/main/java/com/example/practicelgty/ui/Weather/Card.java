@@ -1,4 +1,4 @@
-package com.example.practicelgty.ui.notifications;
+package com.example.practicelgty.ui.Weather;
 
 import android.util.Log;
 
@@ -17,10 +17,6 @@ public class Card {
     Date date;
 
     Card(String json , Date date){
-//        System.out.println(getObj("temp" , json));
-//        System.out.println(getEdit("wind_speed" , json));
-//        System.out.println(getEdit("humidity" , json));
-//        System.out.println(getObj("weather" , json));
         this.date = date;
 
         wendSpeed= getEdit("wind_speed" , json);

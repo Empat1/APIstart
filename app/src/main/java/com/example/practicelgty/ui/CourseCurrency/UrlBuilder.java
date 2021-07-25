@@ -1,18 +1,11 @@
-package com.example.practicelgty.ui.dashboard;
+package com.example.practicelgty.ui.CourseCurrency;
 
-import android.os.AsyncTask;
-import android.text.format.DateUtils;
 import android.util.Log;
 
-import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.text.DateFormat;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
 
 public class UrlBuilder {
@@ -32,7 +25,6 @@ public class UrlBuilder {
 
     public URL getUrlDate(Date date) throws MalformedURLException {
         String s = URL_STR + dateFormat.format(date);
-//        Log.i(name , "URL = " + s);
         return new URL(s);
     }
 

@@ -1,6 +1,5 @@
-package com.example.practicelgty.ui.dashboard;
+package com.example.practicelgty.ui.CourseCurrency;
 
-import android.os.AsyncTask;
 import android.util.Log;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -9,10 +8,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
-import java.util.ArrayList;
 
-public class Reqest {
-    public static String name = "Reqest";
+public class Request {
+    public static String name = "Request";
 
 
     public double getСourseDay(URL oracle) throws IOException {
@@ -42,13 +40,7 @@ public class Reqest {
 
     public String[] jsonString(String s) throws IOException {
         s= s.substring(1 , s.length() -2);
-        String[] out = s.split("");
-//        for(String s1: out){
-//            s1=s1+"}";
-//            System.out.println(s1);
-//            newObjectByJson(s1);
-//        }
-        return out;
+        return s.split("");
     }
 
     private String getObj(String word, String json){

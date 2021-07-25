@@ -1,4 +1,4 @@
-package com.example.practicelgty.ui.home;
+package com.example.practicelgty.ui.VK;
 
 
 import java.io.BufferedReader;
