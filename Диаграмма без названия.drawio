@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-20T23:56:31.553Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="3YwxfCr80766JomlztWL" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-20T23:56:52.378Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="mSuBDru2r8CNTmWVT3La" version="21.5.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="5495" dy="2408" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6582" dy="2996" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -3467,11 +3467,13 @@
         <mxCell id="SYE1NiScGtvjajEvl1sG-41" value="- описание: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="SYE1NiScGtvjajEvl1sG-38" vertex="1">
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="SYE1NiScGtvjajEvl1sG-44" value="Работает" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=baseDash;startFill=0;endArrow=ERmany;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SYE1NiScGtvjajEvl1sG-46" target="SYE1NiScGtvjajEvl1sG-102" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="SYE1NiScGtvjajEvl1sG-44" value="Работает" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=baseDash;startFill=0;endArrow=ERmany;endFill=0;jumpStyle=arc;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SYE1NiScGtvjajEvl1sG-46" target="SYE1NiScGtvjajEvl1sG-98" edge="1">
+          <mxGeometry x="0.42" y="-12" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="442" y="-783" />
+              <mxPoint x="416" y="-784" />
+              <mxPoint x="416" y="-784" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SYE1NiScGtvjajEvl1sG-45" value="Находятся" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=baseDash;startFill=0;endArrow=ERmany;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SYE1NiScGtvjajEvl1sG-46" target="SYE1NiScGtvjajEvl1sG-123" edge="1">
